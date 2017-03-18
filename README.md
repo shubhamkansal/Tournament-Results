@@ -12,8 +12,8 @@ Developing a database schema to store the game matches between players. Python c
 * Install Virtual Box : https://www.virtualbox.org/wiki/Downloads
 * Install Vagrant : https://www.vagrantup.com/downloads.html
 * On virtual machine run commands:
-  ** vagrant up
-  ** vagrant ssh
+   vagrant up
+   vagrant ssh
 * Change the directory to the tournament folder by using cd /vagrant/tournament
 * Open psql and import the given sql file using \i tournament.sql to your database.
 * Run the file using python tournament_test.py
