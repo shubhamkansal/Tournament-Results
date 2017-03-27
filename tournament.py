@@ -107,7 +107,7 @@ def swissPairings():
         name2: the second player's name
     """
     DB = connect()
-    cursor = conn.cursor()
+    cursor = DB.cursor()
     results = playerStandings()
     pairings_total = []
     count_results = len(results)
